@@ -3,3 +3,10 @@
 
 # License files
 *.sublime_license
+
+# Cache files
+*.cache
+*.rcache
+
+# Session info
+*.sublime_session
