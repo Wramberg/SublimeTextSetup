@@ -11,5 +11,10 @@
 # Session info
 *.sublime_session
 
+# Project files
+*.sublime-project
+*.sublime-workspace
+
 # Random garbage
 *.last-run
+Data/Index/*
