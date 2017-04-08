@@ -1,0 +1,16 @@
+[
+
+    // Tweaks tabs a bit (width and height)
+    {
+        "class": "tabset_control",
+        "layer0.inner_margin": [10, 0],
+        "layer0.opacity": 1.0,
+        "content_margin": 0,
+        "tab_overlap": 0,
+        "tab_width": 200,
+        "tab_min_width": 10,
+        "tab_height": 38,
+        "mouse_wheel_switch": false,
+    },
+
+]
