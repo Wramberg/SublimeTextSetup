@@ -36,6 +36,8 @@
         		<string>#ffffff60</string>
   				<key>gutter</key>
         		<string>#272b32</string>
+            <key>guide</key>
+            <string>#ffffff20</string>
 			</dict>
 		</dict>
 
