@@ -5,6 +5,7 @@
 	],
 	"installed_packages":
 	[
+		"ChannelRepositoryTools",
 		"Delete Lines",
 		"FileBrowser",
 		"GotoLastEditEnhanced",
