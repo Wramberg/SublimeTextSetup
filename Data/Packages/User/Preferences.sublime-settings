@@ -1,6 +1,60 @@
 {
+	"added_words":
+	[
+		"plugin",
+		"keymap",
+		"plugins"
+	],
+	"always_prompt_for_file_reload": false,
+	"always_show_minimap_viewport": false,
+	"auto_complete_commit_on_tab": true,
+	"auto_complete_delay": 50,
+	"auto_complete_selector": "source, text",
+	"auto_complete_with_fields": false,
+	"auto_match_enabled": false,
+	"caret_style": "phase",
+	"close_windows_when_empty": false,
+	// "color_scheme": "Packages/User/Ocean Dark Soda Modified2.tmTheme",
+	"detect_indentation": false,
+	 "dpi_scale": 0.99,
+	"draw_minimap_border": false,
+	"enable_tab_scrolling": true,
+	"ensure_newline_at_eof_on_save": true,
+	"font_face": "Consolas",
+	"font_options":
+	[
+		"directwrite"
+	],
+	"font_size": 10,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
 		"Vintage"
-	]
+	],
+	"index_exclude_patterns":
+	[
+		"*.log",
+		"*.txt"
+	],
+	"line_padding_bottom": 0,
+	"line_padding_top": 0,
+	"margin": 0,
+	"mouse_wheel_switches_tabs": false,
+	"rulers":
+	[
+		80,
+		100,
+		120
+	],
+	"scroll_speed": 1,
+	"shift_tab_unindent": true,
+	"show_encoding": true,
+	"show_line_endings": true,
+	"show_tab_close_buttons": true,
+	"tab_size": 3,
+	//"theme": "Gravity One.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"word_wrap": "true"
 }
