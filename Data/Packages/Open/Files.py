@@ -35,7 +35,12 @@ class FilesList:
         self.labels += labels_or_format_fn
 
     def __add_dir_decorators(self, basedir):
-        self.add_files([join(basedir, pardir)], ['..'])
+        str_basedir = str(basedir)
+        print(str_basedir)
+        print(len(str_basedir))
+        if len(str_basedir) > 43:
+            str_basedir = "..." + str_basedir[-43:]
+        self.add_files([join(basedir, pardir)], ["["+str_basedir+"]  "])
 
     def __glob(self, basedir):
         paths = [join(basedir, f) for f in listdir(basedir) if self.__fnmatch(basedir, f)]

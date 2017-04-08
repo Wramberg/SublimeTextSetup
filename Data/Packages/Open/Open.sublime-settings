@@ -1,12 +1,12 @@
 {
     // File or folder paths to show initially
-    "bookmarks": ["~"],
+    "bookmarks": [],
 
     // String to decorate bookmarks ("#" expands to list index)
     "bookmark_prefix": "#:",
 
     // Keep browsing after opening file
-    "persistent_browsing": true,
+    "persistent_browsing": false,
 
     // Show active tab's basedir after bookmarks
     "list_working_dir": true,
