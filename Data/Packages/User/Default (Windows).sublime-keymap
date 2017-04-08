@@ -33,8 +33,8 @@
    { "keys": ["ctrl+pageup"], "command": "rotate_to_prev_tab_in_group" },
 
    // Move tabs (using MoveTab package)
-   {"keys": ["ctrl+shift+pageup"], "command": "move_tab", "args": {"position": "-1"} },
-   {"keys": ["ctrl+shift+pagedown"], "command": "move_tab", "args": {"position": "+1"} },
+   {"keys": ["ctrl+alt+pageup"], "command": "move_tab", "args": {"position": "-1"} },
+   {"keys": ["ctrl+alt+pagedown"], "command": "move_tab", "args": {"position": "+1"} },
 
    // Wrap line to 80 chars (using WrapPlus package)
    { "keys": ["alt+w"], "command": "wrap_lines_plus", "args": {"width": 80} },
@@ -47,8 +47,8 @@
    { "keys": ["ctrl+shift+y"], "command": "goto_last_edit_enhanced", "args": {"backward": true }},
 
    // Scroll (using ScrollAlternative package)
-   {"keys": ["ctrl+alt+pageup"], "command": "scroll_lines_enhanced", "args": {"amount": -20 }},
-   {"keys": ["ctrl+alt+pagedown"], "command": "scroll_lines_enhanced", "args": {"amount": 20 }},
+   {"keys": ["ctrl+alt+up"], "command": "scroll_lines_enhanced", "args": {"amount": -20 }},
+   {"keys": ["ctrl+alt+down"], "command": "scroll_lines_enhanced", "args": {"amount": 20 }},
 
    // Pane resizing (using PanePane package)
    { "keys": ["alt+shift+down"], "command": "pane_pane_resize", "args": { "dimension": "width", "resize": "decrease" }},
@@ -69,6 +69,12 @@
          { "key": "setting.dired_rename_mode", "operand": false }
       ]
    },
+
+   // Clipboard shortcuts (using Jimbly's clipboard manager)
+   { "keys": ["ctrl+x"], "command": "jch_cut" },
+   { "keys": ["ctrl+c"], "command": "jch_copy" },
+   { "keys": ["ctrl+v"], "command": "jch_paste" },
+   { "keys": ["ctrl+shift+v"], "command": "jch_paste_choice" },
 
    //
    // Old shortcuts that were used once and might be used again
