@@ -10,3 +10,6 @@
 
 # Session info
 *.sublime_session
+
+# Random garbage
+*.last-run
