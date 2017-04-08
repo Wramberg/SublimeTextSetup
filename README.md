@@ -1,7 +1,2 @@
 # SublimeTextSetup
-My portable Sublime Text 3 setup
-
-## Packages
-* Hide Menu
-
-## Keybindings
+My portable Sublime Text 3 setup. Nothing much to see here.
