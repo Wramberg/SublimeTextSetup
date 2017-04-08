@@ -15,7 +15,7 @@
 	"caret_style": "phase",
 	"close_windows_when_empty": false,
 	"color_scheme": "Packages/User/Ocean Dark Soda Wrambergified.tmTheme",
-	"detect_indentation": false,
+	"detect_indentation": true,
 	"dpi_scale": 0.99,
 	"draw_minimap_border": false,
 	"enable_tab_scrolling": false,
