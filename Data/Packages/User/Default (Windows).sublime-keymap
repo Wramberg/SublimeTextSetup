@@ -1,0 +1,91 @@
+[
+   // Basic key bindings
+   { "keys": ["ctrl+t"], "command": "new_file" },
+   { "keys": ["alt+left"], "command": "move_to", "args": {"to": "bol", "extend": false} },
+   { "keys": ["alt+right"], "command": "move_to", "args": {"to": "eol", "extend": false} },
+   { "keys": ["alt+shift+left"], "command": "move_to", "args": {"to": "bol", "extend": true} },
+   { "keys": ["alt+shift+right"], "command": "move_to", "args": {"to": "eol", "extend": true} },
+   { "keys": ["ctrl+b"], "command": "move_to", "args": {"to": "brackets"} },
+   { "keys": ["ctrl+r"], "command": "show_at_center"},
+   { "keys": ["ctrl+shift+t"], "command": "reopen_last_file" },
+   { "keys": ["ctrl+q"], "command": "toggle_comment", "args": { "block": false } },
+   { "keys": ["ctrl+alt+p"], "command": "prompt_select_workspace" },
+   { "keys": ["alt+up"], "command": "select_lines", "args": {"forward": false} },
+   { "keys": ["alt+down"], "command": "select_lines", "args": {"forward": true} },
+   { "keys": ["alt+q"], "command": "toggle_setting", "args": {"setting": "word_wrap"}},
+   { "keys": ["f12"], "command": "show_panel", "args": {"panel": "console", "toggle": true}},
+
+   // Delete entire line (using Delete Line package)
+   { "keys": ["ctrl+e"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
+
+   // Go up/down multiple lines (using LineJumper package)
+   {"keys": ["ctrl+up"], "command": "line_jumper", "args": {"number_of_lines": 10, "cmd": "up"} },
+   {"keys": ["ctrl+down"], "command": "line_jumper", "args": {"number_of_lines": 10, "cmd": "down"} },
+
+   // Open path to current file (using OpenPath package)
+   { "keys": ["f10"], "command": "open_file_folder"},
+
+   // Open simple browsing view (mainly for when the folder structure is known)
+   { "keys": ["ctrl+o"], "command": "open_browse" },
+
+   // Switch between tabs in group (using custom RotateBetweenTabsInGroup package)
+   { "keys": ["ctrl+pagedown"], "command": "rotate_to_next_tab_in_group" },
+   { "keys": ["ctrl+pageup"], "command": "rotate_to_prev_tab_in_group" },
+
+   // Move tabs (using MoveTab package)
+   {"keys": ["ctrl+shift+pageup"], "command": "move_tab", "args": {"position": "-1"} },
+   {"keys": ["ctrl+shift+pagedown"], "command": "move_tab", "args": {"position": "+1"} },
+
+   // Wrap line to 80 chars (using WrapPlus package)
+   { "keys": ["alt+w"], "command": "wrap_lines_plus", "args": {"width": 80} },
+
+   // Add multiple cursors (using MarkAndMove package)
+   { "keys": ["alt+c"], "command": "mark_and_move_do_it_all" },
+
+   // Go to last edit (using GotoLastEditEnhanced package)
+   { "keys": ["ctrl+y"], "command": "goto_last_edit_enhanced"},
+   { "keys": ["ctrl+shift+y"], "command": "goto_last_edit_enhanced", "args": {"backward": true }},
+
+   // Scroll (using ScrollAlternative package)
+   {"keys": ["ctrl+alt+pageup"], "command": "scroll_lines_enhanced", "args": {"amount": -20 }},
+   {"keys": ["ctrl+alt+pagedown"], "command": "scroll_lines_enhanced", "args": {"amount": 20 }},
+
+   // Pane resizing (using PanePane package)
+   { "keys": ["alt+shift+down"], "command": "pane_pane_resize", "args": { "dimension": "width", "resize": "decrease" }},
+   { "keys": ["alt+shift+up"], "command": "pane_pane_resize", "args": { "dimension": "width", "resize": "increase" }},
+   { "keys": ["alt+shift+c"], "command": "pane_pane_resize", "args": { "dimension": "width", "resize": "equal" }},
+
+   // Large file browser (using FileBrowser package)
+   { "keys": ["ctrl+shift+o"], "command": "dired", "args": {"immediate": true, "single_pane": false} },
+   { "keys": ["enter"], "command": "dired_select", "args": {"and_close": true},
+      "context": [
+         { "key": "selector", "operator": "equal", "operand": "text.dired" },
+         { "key": "setting.dired_rename_mode", "operand": false }
+      ]
+   },
+   { "keys": ["ctrl+enter"], "command": "dired_select", "args": {"and_close": false},
+      "context": [
+         { "key": "selector", "operator": "equal", "operand": "text.dired" },
+         { "key": "setting.dired_rename_mode", "operand": false }
+      ]
+   },
+
+   //
+   // Old shortcuts that were used once and might be used again
+   //
+
+   // { "keys": ["ctrl+space"], "command": "expand_selection", "args": {"to": "scope"} },
+
+   // Goto definition
+   // { "keys": ["alt+d"], "command": "go_to_definition", "args": {} },
+
+   // Terminal
+   // { "keys": ["f9"], "command": "open_terminal" },
+
+   // Clipboard
+   // { "keys": ["ctrl+x"], "command": "clipboard_manager_cut" },
+   // { "keys": ["ctrl+c"], "command": "clipboard_manager_copy" },
+   // { "keys": ["ctrl+v"], "command": "clipboard_manager_paste" },
+   // { "keys": ["ctrl+shift+v"], "command": "clipboard_manager_choose_and_paste" },
+
+]
