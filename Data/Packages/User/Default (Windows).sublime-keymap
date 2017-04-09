@@ -76,6 +76,10 @@
    { "keys": ["ctrl+v"], "command": "jch_paste" },
    { "keys": ["ctrl+shift+v"], "command": "jch_paste_choice" },
 
+   // Perforce commands (using perforce manager)
+   { "keys": ["f7"], "command": "perforce_checkout" },
+   { "keys": ["f8"], "command": "perforce_add" },
+
    //
    // Old shortcuts that were used once and might be used again
    //
