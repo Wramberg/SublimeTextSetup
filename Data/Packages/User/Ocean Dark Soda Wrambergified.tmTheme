@@ -38,6 +38,10 @@
         		<string>#272b32</string>
             <key>guide</key>
             <string>#ffffff20</string>
+				<key>shadow</key>
+            <string>#00000080</string>
+				<key>shadowWidth</key>
+            <string>10</string>
 			</dict>
 		</dict>
 
