@@ -16,6 +16,8 @@
    { "keys": ["f12"], "command": "show_panel", "args": {"panel": "console", "toggle": true}},
    { "keys": ["f1"], "command": "toggle_record_macro" },
    { "keys": ["f2"], "command": "run_macro" },
+
+   // Make find under expand compatible with macro recording (using custom package)
    { "keys": ["ctrl+d"], "command": "find_under_expand_macro_compatible" },
 
    // Delete entire line (using Delete Line package)
@@ -82,6 +84,10 @@
    // Perforce commands (using perforce manager)
    { "keys": ["f7"], "command": "perforce_checkout" },
    { "keys": ["f8"], "command": "perforce_add" },
+
+   // Repeat macro X time (using RepeatMacro package)
+   { "keys": ["f3"], "command": "repeat_macro" }
+
 
    //
    // Old shortcuts that were used once and might be used again
