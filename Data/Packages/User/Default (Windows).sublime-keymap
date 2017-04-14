@@ -14,6 +14,9 @@
    { "keys": ["alt+down"], "command": "select_lines", "args": {"forward": true} },
    { "keys": ["alt+q"], "command": "toggle_setting", "args": {"setting": "word_wrap"}},
    { "keys": ["f12"], "command": "show_panel", "args": {"panel": "console", "toggle": true}},
+   { "keys": ["f1"], "command": "toggle_record_macro" },
+   { "keys": ["f2"], "command": "run_macro" },
+   { "keys": ["ctrl+d"], "command": "find_under_expand_macro_compatible" },
 
    // Delete entire line (using Delete Line package)
    { "keys": ["ctrl+e"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
