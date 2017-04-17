@@ -5,6 +5,7 @@
 	],
 	"installed_packages":
 	[
+		"Case Conversion",
 		"ChannelRepositoryTools",
 		"Delete Lines",
 		"FileBrowser",
@@ -13,6 +14,7 @@
 		"Jimbly's Clipboard History",
 		"LineJumper",
 		"MarkAndMove",
+		"MiniPy",
 		"MoveTab",
 		"OpenPath",
 		"Package Control",

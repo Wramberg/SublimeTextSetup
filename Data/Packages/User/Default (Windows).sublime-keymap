@@ -42,7 +42,9 @@
    {"keys": ["ctrl+alt+pagedown"], "command": "move_tab", "args": {"position": "+1"} },
 
    // Wrap line to 80 chars (using WrapPlus package)
-   { "keys": ["alt+w"], "command": "wrap_lines_plus", "args": {"width": 80} },
+   { "keys": ["alt+w", "1"], "command": "wrap_lines_plus", "args": {"width": 80} },
+   { "keys": ["alt+w", "2"], "command": "wrap_lines_plus", "args": {"width": 100} },
+   { "keys": ["alt+w", "3"], "command": "wrap_lines_plus", "args": {"width": 120} },
 
    // Add multiple cursors (using MarkAndMove package)
    { "keys": ["alt+c"], "command": "mark_and_move_do_it_all" },
@@ -85,9 +87,8 @@
    { "keys": ["f7"], "command": "perforce_checkout" },
    { "keys": ["f8"], "command": "perforce_add" },
 
-   // Repeat macro X time (using RepeatMacro package)
-   { "keys": ["f3"], "command": "repeat_macro" }
-
+   // Repeat recorded macro X time (using RepeatMacro package)
+   { "keys": ["f3"], "command": "repeat_macro" },
 
    //
    // Old shortcuts that were used once and might be used again
