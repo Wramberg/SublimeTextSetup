@@ -5,7 +5,7 @@ My portable Sublime Text 3 setup and some personal notes about usage.
 A few keybindings to remember which still aren't integrated completely into my workflow.
 
 Shortcut | Description
---- | --- | ---
+--- | ---
 `ctrl`+`b` | Jump between brackets
 `ctrl`+`r` | Center line in view
 `alt`+`q` | Toggle word wrap
