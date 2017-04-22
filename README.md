@@ -22,3 +22,9 @@ Shortcut | Description
 `alt`+`shift`+`up` | Make pane size larger (using 2 panes)
 `alt`+`shift`+`down` | Make pane size smaller (using 2 panes)
 `alt`+`shift`+`c` | Make pane sizes equal (using 2 panes)
+
+## Commands
+Commands to remember
+
+* Sort lines
+* Case conversion
