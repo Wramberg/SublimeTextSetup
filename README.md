@@ -1,4 +1,4 @@
-# SublimeTextSetup
+# Sublime Text 3 Windows
 My portable Sublime Text 3 setup and some personal notes about usage.
 
 ## Keybindings
